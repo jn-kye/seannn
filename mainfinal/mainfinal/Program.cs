@@ -31,6 +31,7 @@ namespace mainfinal
                 .WithStaticAssets();
 
             Console.WriteLine("DEV TO SEAN");
+            Console.WriteLine("UlOL");
 
             app.Run();
         }

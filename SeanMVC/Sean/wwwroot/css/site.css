@@ -1,0 +1,126 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.sean-link {
+    color: #d30e4c;
+}
+
+.sean-link:hover {
+    color: #ebad02;
+}
+
+.pinfo {
+    border: 3px solid #8bd8e0;
+    border-radius: 15px;
+    width: 750px;
+    height: 325px;
+    background-color: aliceblue;
+    box-shadow: 5px 6px 3px black;
+    margin: auto;
+}
+
+.qr {
+    height: 225px;
+    width: 225px;
+    object-fit: contain;
+    float: right;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.quote {
+    border: 3px solid black;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0px;
+    box-shadow: 5px 6px 3px black;
+    border-radius: 15px;
+}
+
+.h4s {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.ps2 {
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.box {
+    border: 3px solid black;
+    height: 450px;
+    width: 31.5%;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-style: italic;
+    float: left;
+    margin-left: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 6px 3px black;
+    border-radius: 15px;
+}
+
+.box .title {
+    text-align: center;
+}
+
+.box .ps {
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.title {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pic {
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
