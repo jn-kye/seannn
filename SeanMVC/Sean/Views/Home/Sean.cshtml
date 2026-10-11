@@ -1,0 +1,67 @@
+﻿@model Sean.Models.StudentModel;
+
+<style>
+    body {
+        background-image: url('../images/wallpaper.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+
+<div class="pinfo">
+    <h1 class="title">@ViewBag.WelcomeMessage</h1>
+
+    <img class="qr" src="../images/qrr.png">
+    
+    <h3><span class="h4s">ID: </span></h3>
+    <label><span class="ps2">@Model.ID</span></label>
+    
+    
+    <h3><span class="h4s">Full Name: </span></h3>
+    <label><span class="ps2">@Model.FullName</span></label>
+    
+    
+    <h3><span class="h4s">Address: </span></h3>
+    <label><span class="ps2">@Model.Address</span></label>
+</div>
+
+<br/>
+
+<div class="quote">
+    <h1>@ViewData["Quote"]</h1>
+</div>
+
+<br/>
+
+<div class="container">
+    <div class="box">
+        <div class="title">Sports</div>
+        <img class="pic" src="../images/volleyballll.jpg">
+        <span class="ps">Volleyball</span>
+        <img class="pic" src="../images/basketballl.jpg">
+        <span class="ps">Basketball</span>
+        <img class="pic" src="../images/badminton.jpg">
+        <span class="ps">Badminton</span>
+    </div>
+
+    <div class="box">
+        <div class="title">Games</div>
+        <img class="pic" src="../images/mlbb.jpg">
+        <span class="ps">MLBB</span>
+        <img class="pic" src="../images/valorant.jpg">
+        <span class="ps">Valorant</span>
+        <img class="pic" src="../images/hsr.jpg">
+        <span class="ps">HSR</span>
+    </div>
+
+    <div class="box">
+        <div class="title">Hobbies</div>
+        <img class="pic" src="../images/manhwa.jpg">
+        <span class="ps">Manhwa</span>
+        <img class="pic" src="../images/anime.jpg">
+        <span class="ps">Anime</span>
+        <img class="pic" src="../images/manga.jpg">
+        <span class="ps">Manga</span>
+    </div>
+
+</div>

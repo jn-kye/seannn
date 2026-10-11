@@ -30,7 +30,8 @@ namespace mainfinal
                 pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
-            Console.WriteLine("MAIN");
+            Console.WriteLine("DEV TO SEAN");
+            Console.WriteLine("UlOL");
 
             app.Run();
         }
